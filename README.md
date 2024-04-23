@@ -41,4 +41,26 @@ Generate (sample) some text from a trained model with:
 
     ./scripts/generate.sh
 
+# Changes made:
+
+Download and preprocess data:
+
+    ./scripts/download_data_me.sh
+
+Train a model with different dropouts, save the perplexity logs:
+
+    ./scripts/train_me.sh
+
+Generate (sample) some text from a trained model by looping through the different dropout settings with:
+
+    ./scripts/generate_me.sh
+
+- Saved samples of all dropouts in the sample folder   
+
+- Adjusted main.py to include the logs, saved each dropout log in the logs folder
+
+- Added analysis folder for generating the perplexity graphs
+
+
+
 

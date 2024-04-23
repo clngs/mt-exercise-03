@@ -1,0 +1,2 @@
+epoch,train-perplexity,test-perplexity,val-perplexity,dropout
+1,678.4518354281792,274.84167252652014,315.5949769024411,0.5
